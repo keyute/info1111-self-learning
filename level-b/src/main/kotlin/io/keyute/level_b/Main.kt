@@ -12,7 +12,7 @@ fun main() {
     val reminders = mutableListOf<Job>()
     println("Manage your users here")
     while (true) {
-        println("\nWhat would you like to do?")
+        println("What would you like to do?")
         println("1. Create a user")
         println("2. Print all users")
         println("3. Edit a user")
