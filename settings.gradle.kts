@@ -9,3 +9,4 @@
  */
 
 rootProject.name = "info1111-self-learning"
+include("level-a", "level-b")
