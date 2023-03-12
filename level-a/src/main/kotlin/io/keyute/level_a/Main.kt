@@ -3,8 +3,8 @@ package io.keyute.level_a
 fun main() {
     println("Hello, world!")
     print("What is your name? ")
-    val name = readlnOrNull()
-    if (name?.isBlank() == true || name == null) {
+    val name = readlnOrNull() ?: ""
+    if (name.isBlank()) {
         println("You didn't enter a name!")
         return
     } else {

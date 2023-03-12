@@ -18,6 +18,10 @@ subprojects {
         mainClass.set("io.keyute.${project.name.replace("-", "_")}.MainKt")
     }
 
+    dependencies {
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0-Beta")
+    }
+
     tasks {
         named<JavaExec>("run") {
             standardInput = System.`in`
